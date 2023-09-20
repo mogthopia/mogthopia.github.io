@@ -68,30 +68,22 @@ h6 {
 
 /* Style the header section */
 #header {
-  background: rgba(0, 0, 0, 0.75);
-  transition: all 0.5s;
-  z-index: 997;
-  height: 80px;
-  display: flex; /* Make it a flex container */
-  justify-content: space-between; /* Space the logo and title */
-  align-items: center; /* Center vertically */
+  background-color: #333; /* Adjust header background color */
+  color: #fff; /* Adjust text color */
+  padding: 10px 0; /* Adjust padding as needed */
 }
 
-/* Style the logo */
+/* Style the logo and title inside the logo container */
 #header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  display: flex; /* Make it a flex container */
-  align-items: center; /* Center vertically */
+  display: flex;
+  align-items: center;
 }
 
 #header .logo a {
   color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 #header .logo img {
@@ -99,12 +91,16 @@ h6 {
   margin-right: 10px; /* Add spacing between logo and title */
 }
 
-/* Style the title */
 #header h1 {
-  color: #fff; /* Adjust title color */
-  font-size: 24px; /* Adjust title size */
+  font-size: 24px; /* Adjust title font size */
   font-weight: bold;
 }
+
+/* Add styles for the fixed-top class (if needed) */
+.fixed-top {
+  /* Your fixed header styles go here */
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
