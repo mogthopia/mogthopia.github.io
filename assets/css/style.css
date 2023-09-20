@@ -66,16 +66,18 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Style the header section */
 #header {
   background: rgba(0, 0, 0, 0.75);
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
+  display: flex; /* Make it a flex container */
+  justify-content: space-between; /* Space the logo and title */
+  align-items: center; /* Center vertically */
 }
 
+/* Style the logo */
 #header .logo {
   font-size: 28px;
   margin: 0;
@@ -84,6 +86,8 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
+  display: flex; /* Make it a flex container */
+  align-items: center; /* Center vertically */
 }
 
 #header .logo a {
@@ -91,7 +95,15 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 40px; /* Adjust logo size */
+  margin-right: 10px; /* Add spacing between logo and title */
+}
+
+/* Style the title */
+#header h1 {
+  color: #fff; /* Adjust title color */
+  font-size: 24px; /* Adjust title size */
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
