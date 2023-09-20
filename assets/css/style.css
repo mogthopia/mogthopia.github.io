@@ -87,7 +87,9 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px; /* Adjust logo size */
+  max-height: 40px; /* Adjust the maximum height for the logo */
+  /* You can optionally set max-width to constrain width as well */
+  /* max-width: 100%; */
   margin-right: 10px; /* Add spacing between logo and title */
 }
 
@@ -95,6 +97,7 @@ h6 {
   font-size: 24px; /* Adjust title font size */
   font-weight: bold;
 }
+
 
 /* Add styles for the fixed-top class (if needed) */
 .fixed-top {
