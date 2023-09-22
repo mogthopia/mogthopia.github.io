@@ -76,7 +76,7 @@ h6 {
 /* Style the header container */
 #header .container {
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: flex-start; /* Align items to the left */
 }
 
