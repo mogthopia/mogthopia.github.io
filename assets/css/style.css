@@ -93,8 +93,7 @@ h6 {
 
 /* Style the title within the combined element */
 #header .logo h1 {
-  font-size: 24px; /* Adjust title font size */
-  font-weight: bold;
+  font-size: 20px; /* Adjust title font size */
   margin: 0; /* Remove any default margin on the title */
   line-height: 1; /* Ensure consistent line height */
   border-bottom: none; /* Remove any bottom border */
