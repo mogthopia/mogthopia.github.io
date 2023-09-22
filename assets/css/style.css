@@ -73,31 +73,24 @@ h6 {
   padding: 10px 0; /* Adjust padding as needed */
 }
 
-/* Style the logo and title inside the logo container */
-#header .logo {
+/* Style the logo and title inside the header container */
+#header .container {
   display: flex;
   align-items: center;
 }
 
-#header .logo a {
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-
+/* Style the logo */
 #header .logo img {
-  max-height: 40px; /* Adjust the maximum height for the logo */
-  /* You can optionally set max-width to constrain width as well */
-  /* max-width: 100%; */
+  max-height: 40px; /* Adjust logo size */
   margin-right: 10px; /* Add spacing between logo and title */
 }
 
+/* Style the title */
 #header h1 {
   font-size: 24px; /* Adjust title font size */
   font-weight: bold;
+  margin: 0; /* Remove any default margin on the title */
 }
-
 
 /* Add styles for the fixed-top class (if needed) */
 .fixed-top {
