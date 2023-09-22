@@ -73,6 +73,13 @@ h6 {
   padding: 10px 0; /* Adjust padding as needed */
 }
 
+/* Style the header section */
+#header {
+  background-color: #333; /* Adjust header background color */
+  color: #fff; /* Adjust text color */
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
 /* Style the header container */
 #header .container {
   display: flex;
@@ -89,14 +96,15 @@ h6 {
 /* Style the logo within the combined element */
 #header .logo img {
   max-height: 40px; /* Adjust logo size */
+  margin-right: 5px; /* Add a small right margin for spacing */
 }
 
 /* Style the title within the combined element */
 #header .logo h1 {
-  font-size: 20px; /* Adjust title font size */
+  font-size: 24px; /* Adjust title font size */
+  font-weight: bold;
   margin: 0; /* Remove any default margin on the title */
   line-height: 1; /* Ensure consistent line height */
-  border-bottom: none; /* Remove any bottom border */
 }
 
 /* Remove underline on anchor (link) */
