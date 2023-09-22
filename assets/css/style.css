@@ -80,14 +80,20 @@ h6 {
   justify-content: flex-start; /* Align items to the left */
 }
 
-/* Style the logo */
-#header .logo img {
-  max-height: 40px; /* Adjust logo size */
-  margin: 0; /* Remove any margin */
+/* Style the combined logo and title */
+#header .logo {
+  display: flex;
+  align-items: center;
 }
 
-/* Style the title */
-#header h1 {
+/* Style the logo within the combined element */
+#header .logo img {
+  max-height: 40px; /* Adjust logo size */
+  margin-right: 10px; /* Add spacing between logo and title */
+}
+
+/* Style the title within the combined element */
+#header .logo h1 {
   font-size: 24px; /* Adjust title font size */
   font-weight: bold;
   margin: 0; /* Remove any default margin on the title */
@@ -98,6 +104,7 @@ h6 {
 #header .logo a {
   text-decoration: none;
 }
+
 
 /* Add styles for the fixed-top class (if needed) */
 .fixed-top {
