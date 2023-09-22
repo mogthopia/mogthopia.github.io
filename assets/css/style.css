@@ -83,6 +83,7 @@ h6 {
 /* Style the logo */
 #header .logo img {
   max-height: 40px; /* Adjust logo size */
+  margin: 0; /* Remove any margin */
 }
 
 /* Style the title */
