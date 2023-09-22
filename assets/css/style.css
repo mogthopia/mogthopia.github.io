@@ -77,11 +77,13 @@ h6 {
 #header .container {
   display: flex;
   align-items: center;
+  justify-content: flex-start; /* Align items to the left */
 }
 
 /* Style the logo */
 #header .logo img {
   max-height: 40px; /* Adjust logo size */
+  margin-right: 10px; /* Add spacing between logo and title */
 }
 
 /* Style the title */
@@ -89,6 +91,11 @@ h6 {
   font-size: 24px; /* Adjust title font size */
   font-weight: bold;
   margin: 0; /* Remove any default margin on the title */
+}
+
+/* Remove underline on anchor (link) */
+#header .logo a {
+  text-decoration: none;
 }
 
 /* Add styles for the fixed-top class (if needed) */
