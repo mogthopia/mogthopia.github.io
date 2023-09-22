@@ -89,7 +89,6 @@ h6 {
 /* Style the logo within the combined element */
 #header .logo img {
   max-height: 40px; /* Adjust logo size */
-  margin-right: 10px; /* Add spacing between logo and title */
 }
 
 /* Style the title within the combined element */
@@ -98,13 +97,13 @@ h6 {
   font-weight: bold;
   margin: 0; /* Remove any default margin on the title */
   line-height: 1; /* Ensure consistent line height */
+  border-bottom: none; /* Remove any bottom border */
 }
 
 /* Remove underline on anchor (link) */
 #header .logo a {
   text-decoration: none;
 }
-
 
 /* Add styles for the fixed-top class (if needed) */
 .fixed-top {
